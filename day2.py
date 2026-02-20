@@ -16,7 +16,7 @@ wait=WebDriverWait(driver,10)
 serach_box= wait.until(EC.presence_of_element_located((By.NAME,"q")))
 
 #serach_box=driver.find_element(By.NAME,"q")
-serach_box.send_keys("w3 school html tags")
+serach_box.send_keys("w3 school html tags and selectors")
 serach_box.send_keys(Keys.RETURN)
 time.sleep(100)
 driver.quit()
